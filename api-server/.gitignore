@@ -1,0 +1,12 @@
+node_modules
+/build
+*.local
+tsconfig.tsbuildinfo
+yarn-error.log
+/pkg-*
+/dist-types
+
+# UCPEM
+ucpem_ports
+
+/.vscode
