@@ -1,0 +1,1 @@
+export const ERR_CA_CANNOT_VERIFY = "ERR_CA_CANNOT_VERIFY"

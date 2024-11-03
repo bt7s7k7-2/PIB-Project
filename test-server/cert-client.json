@@ -1,0 +1,6 @@
+{
+    "caUrl": "http://localhost:8080",
+    "domain": "chodbau.local",
+    "keyDir": ".",
+    "webRoot": "."
+}

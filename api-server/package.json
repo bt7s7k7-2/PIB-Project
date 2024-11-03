@@ -4,18 +4,22 @@
     "main": "index.js",
     "license": "MIT",
     "dependencies": {
+        "@apsides/events": "^1.5.0",
         "@apsides/foundation": "^1.5.0",
         "@apsides/hono-integration": "^1.5.0",
+        "@apsides/project-builder": "^1.5.0",
         "@apsides/rest-integration": "^1.5.0",
         "@apsides/rpc": "^1.5.0",
         "@apsides/services": "^1.5.0",
         "@apsides/struct": "^1.5.0",
+        "debug": "^4.3.7",
+        "dotenv": "^16.4.5",
         "esbuild": "^0.24.0",
         "kompa": "^1.5.0",
-        "ucpem": "^2.9.0",
-        "@apsides/project-builder": "^1.5.0"
+        "ucpem": "^2.9.0"
     },
     "devDependencies": {
+        "@types/debug": "^4.1.12",
         "@types/node": "^20.11.1",
         "@typescript-eslint/eslint-plugin": "^6.0.0",
         "@typescript-eslint/parser": "^6.0.0",

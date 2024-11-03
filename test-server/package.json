@@ -1,0 +1,12 @@
+{
+    "name": "test-server",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "http-server": "^14.1.1"
+    },
+    "scripts": {
+        "serve-unsafe": "http-server -p 80",
+        "serve": "http-server -p 443 --tls --cert server.cert --key private.key"
+    }
+}
