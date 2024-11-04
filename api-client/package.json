@@ -12,7 +12,7 @@
         "esbuild": "^0.24.0",
         "kompa": "^1.5.0",
         "@apsides/project-builder": "^1.5.0",
-        "schema": "^1.0.0"
+        "schema": "file:../api-server/pkg-schema"
     },
     "devDependencies": {
         "@types/node": "^20.11.1",
