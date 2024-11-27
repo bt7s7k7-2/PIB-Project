@@ -1,0 +1,36 @@
+\documentclass[10pt,slovak,a4paper]{article}
+
+\usepackage[slovak]{babel}
+\usepackage[IL2]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url} % \url
+\usepackage{hyperref} % Automatic links
+\usepackage{parskip}
+\usepackage[left=1.5cm, right=1.5cm]{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{placeins}
+
+\DeclareUnicodeCharacter{21D2}{\ensuremath{\Rightarrow}}
+
+\renewcommand{\familydefault}{\sfdefault} % Sans serif
+\raggedright
+
+\pagestyle{headings}
+
+\title{Infraštruktúra verejného kľúča}
+
+\author{Branislav Trstenský\\[2pt]}
+
+\begin{document}
+
+\maketitle
+
+\input{doc.tex}
+
+\Urlmuskip=0mu plus 1mu
+\def\UrlBreaks{\do\/\do-}
+
+\end{document}
