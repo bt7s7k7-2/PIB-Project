@@ -1,0 +1,6 @@
+{
+    "caUrl": "used-ca.local",
+    "domain": "chodbau.local",
+    "keyDir": "/etc/ssl",
+    "webRoot": "/var/www/html"
+}

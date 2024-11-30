@@ -1,0 +1,6 @@
+[ERROR] ERR_CA_CANNOT_VERIFY  Cannot verify identity, client responded with status 404
+
+[ERROR] ERR_CA_CANNOT_VERIFY  Cannot verify identity, client did not respond with challenge code, got: "fxW
+DcMGTtrYa_7shk0DabgAzrq16cJY47Y630wJqOg\n"
+
+[ERROR] ERR_CA_CANNOT_VERIFY  Cannot verify identity because the CA cannot connect to the client domain
