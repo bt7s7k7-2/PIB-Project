@@ -2,8 +2,8 @@
 	author = "Peter Gutmann",
 	title = "Engineering Security",
 	year = 2014,
-    month = "April",
-    note = "https://www.cs.auckland.ac.nz/~pgut001/pubs/book.pdf"
+    month = apr,
+    note = "\url{https://www.cs.auckland.ac.nz/~pgut001/pubs/book.pdf}"
 }
 
 @misc{rfc5280,
@@ -23,11 +23,11 @@
 
 @misc{w3techs,
     title="Usage statistics and market shares of SSL certificate authorities for websites",
-    author="W3Techs.com",
+    author="{W3Techs.com}",
     day = 30,
-    month = november,
+    month = nov,
     year = 2024,
-    howpublished="\url{https://w3techs.com/technologies/overview/ssl_certificate}"
+    url={https://w3techs.com/technologies/overview/ssl_certificate}
 }
 
 @misc{rfc2511,
@@ -47,93 +47,93 @@
 
 @misc{pkic.org,
     title="What Are the Different Types of SSL Certificates?",
-    author="PKI Consortium",
+    author="{PKI Consortium}",
     day = 7,
     month = august,
     year = 2013,
-    howpublished="\url{https://pkic.org/2013/08/07/what-are-the-different-types-of-ssl-certificates/}"
+    url={https://pkic.org/2013/08/07/what-are-the-different-types-of-ssl-certificates/}
 }
 
 @misc{digicert,
     title="What's the difference between DV, OV \& EV SSL certificates?",
-    author="Digicert®",
-    howpublished="\url{https://www.digicert.com/difference-between-dv-ov-and-ev-ssl-certificates}",
+    author="{Digicert®}",
+    url={https://www.digicert.com/difference-between-dv-ov-and-ev-ssl-certificates},
     year=2024
 }
 
 @misc{digicert-ct,
     title = "CT Log Monitoring for Secure Site Pro from DigiCert",
-    howpublished="\url{https://www.digicert.com/tls-ssl/ct-log-monitoring}",
-    author = "Digicert®",
+    url={https://www.digicert.com/tls-ssl/ct-log-monitoring},
+    author = "{Digicert®}",
     year=2024
 }
 
 @misc{challenge,
     title="Challenge Types",
-    author="Let's Encrypt",
+    author="{Let's Encrypt}",
     day = 13,
     month = feb,
     year = 2023,
-    howpublished="\url{https://letsencrypt.org/docs/challenge-types/}"
+    url={https://letsencrypt.org/docs/challenge-types/}
 }
 
 @misc{chrome-ct,
     title="Recognized Logs",
-    author="Chromium Contributors",
-    howpublished="\url{https://googlechrome.github.io/CertificateTransparency/log_list.html}",
+    author="{Chromium Contributors}",
+    url={https://googlechrome.github.io/CertificateTransparency/log_list.html},
     year=2024
 }
 
 @misc{le-acme,
     title = "How It Works - Let's Encrypt",
-    howpublished="\url{https://letsencrypt.org/how-it-works/}",
+    url={https://letsencrypt.org/how-it-works/},
     day = "26",
-    month = "June",
+    month = jun,
     year = "2024",
-    author = "Let's Encrypt",
+    author = "{Let's Encrypt}",
 }
 
 @misc{pki.goog,
     title = "Google Trust Services | Home",
-    howpublished="\url{https://pki.goog/}",
-    author = "Google",
+    url="https://pki.goog/",
+    author = "{Google Inc.}",
     year=2024
 }
 
 @misc{pinning,
     title = "What Is Certificate Pinning? - SSL.com",
-    howpublished="\url{https://www.ssl.com/blogs/what-is-certificate-pinning/}",
+    url={https://www.ssl.com/blogs/what-is-certificate-pinning/},
     day = "30",
-    month = "October",
+    month = oct,
     year = "2023",
-    author = "SSL.com"
+    author = "{SSL.com}"
 }
 
 @misc{chrome-revoke,
     title = "Chrome does certificate revocation better | ZDNET",
-    howpublished="\url{https://www.zdnet.com/article/chrome-does-certificate-revocation-better/}",
+    url={https://www.zdnet.com/article/chrome-does-certificate-revocation-better/},
     day = "21",
-    month = "April",
+    month = apr,
     year = "2014",
     author = "Larry Seltzer"
 }
 
 @misc{firefox-revoke,
-    title = "CA/Revocation Checking in Firefox - MozillaWiki",
-    howpublished="\url{https://wiki.mozilla.org/CA/Revocation_Checking_in_Firefox}",
+    title = {CA/Revocation Checking in Firefox - MozillaWiki},
+    url={https://wiki.mozilla.org/CA/Revocation_Checking_in_Firefox},
     day = "5",
-    month = "February",
+    month = feb,
     year = "2024",
-    author = "MozillaWiki Contributors"
+    author = "{MozillaWiki Contributors}"
 }
 
 @misc{ms-ocsp,
     title = "[MS-OCSP]: Overview | Microsoft Learn",
-    howpublished="\url{https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-ocsp/5792b4c4-c6ba-439a-9c2a-52867d12fb66}",
+    url={https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-ocsp/5792b4c4-c6ba-439a-9c2a-52867d12fb66},
     day = "23",
-    month = "April",
+    month = apr,
     year = "2024",
-    author = "Microsoft"
+    author = "{Microsoft}"
 }
 
 @misc{rfc4985,
@@ -192,7 +192,7 @@ url = {https://doi.org/10.1145/3278532.3278562},
 doi = {10.1145/3278532.3278562},
 abstract = {In this paper, we analyze the evolution of Certificate Transparency (CT) over time and explore the implications of exposing certificate DNS names from the perspective of security and privacy. We find that certificates in CT logs have seen exponential growth. Website support for CT has also constantly increased, with now 33\% of established connections supporting CT. With the increasing deployment of CT, there are also concerns of information leakage due to all certificates being visible in CT logs. To understand this threat, we introduce a CT honeypot and show that data from CT logs is being used to identify targets for scanning campaigns only minutes after certificate issuance. We present and evaluate a methodology to learn and validate new subdomains from the vast number of domains extracted from CT logged certificates.},
 booktitle = {Proceedings of the Internet Measurement Conference 2018},
-pages = {343–349},
+pages = {343-349},
 numpages = {7},
 keywords = {Certificate Transparency, Honeypot, Phishing},
 location = {Boston, MA, USA},
